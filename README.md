@@ -9,6 +9,9 @@ For Python, I like having a clean conda environment.
 ```bash
 conda create --name py37 --channel conda-forge python=3.7
 conda activate py37
+
+conda config --set channel_priority strict
+
 conda install --yes -c conda-forge nibabel tifffile
 ```
 
