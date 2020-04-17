@@ -1,3 +1,6 @@
+# -*- coding: utf-8 -*-
+# Copyright 2020 Armin Bahl <arbahl@gmail.com>
+
 import numpy as np
 import nibabel as nib
 from tifffile import imread
