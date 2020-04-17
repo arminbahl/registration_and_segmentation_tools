@@ -1,5 +1,5 @@
 # Registration and segmentation tools
-Some important pieces of code needed for volumetric registrations and planer cell segmentation.
+Some pieces of code needed for volumetric registrations and planer cell segmentation.
 
 ## Registration tools
 ### Converting manual landmarks into an ANTs transformation file
