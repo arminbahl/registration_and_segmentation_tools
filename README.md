@@ -5,7 +5,7 @@ Some important pieces of code needed for volumetric registrations and planer cel
 ### Converting manual landmarks into an ANTs transformation file
 What you'll need is a functional installation of [ANTs](http://stnava.github.io/ANTs/), [Fiji's Bigwarp](https://imagej.net/BigWarp), and [Python](https://www.anaconda.com/distribution/).
 
-For Python I like having a clean conda environment.
+For Python, I like having a clean conda environment.
 ```bash
 conda create --name py37 --channel conda-forge python=3.7
 conda activate py37
