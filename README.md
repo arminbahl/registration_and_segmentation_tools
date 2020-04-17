@@ -5,6 +5,13 @@ Some important pieces of code needed for volumetric registrations and planer cel
 ### Converting manual landmarks into an ANTs transformation file
 What you'll need is a functional installation of [ANTs](http://stnava.github.io/ANTs/), [Fiji's Bigwarp](https://imagej.net/BigWarp), and [Python](https://www.anaconda.com/distribution/).
 
+For Python I like having a clean conda environment.
+```bash
+conda create --name py37 --channel conda-forge python=3.7
+conda activate py37
+conda install --yes -c conda-forge nibabel tifffile
+```
+
 1. Create a list of manual landmarks for the reference and moving stack with BigWarp. It does not matter which stack is reference and which one is moving.
 2. Save this list as a csv file from BigWarp. Naming can be like this: <em>bigwarp_landmarks_\<moving\>_to_\<reference\>.csv</em>.
 3. Use the script <em>invert_bigwarp_landmarks.py</em> to switch landmarks between moving and reference. Naming of the output can be like this <em>bigwarp_landmarks_\<moving\>to_\<moving\>.csv</em>.
