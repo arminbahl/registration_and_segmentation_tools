@@ -1,3 +1,28 @@
+# Add any directories, files, or patterns you don't want to be tracked by version control
+*.db
+*.lib
+*.exp
+*.opendb
+*.tif
+*.sdf
+*.log
+*.tlog
+*.obj
+*.pdb
+*.tlog
+*.idb
+*.ipch
+*.suo
+*.ipdb
+*.iobj
+*.pdf
+*.npy
+*.npz
+*.lastbuildstate
+*.avi
+*.dll
+.idea/
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
