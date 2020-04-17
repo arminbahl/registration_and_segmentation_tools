@@ -16,8 +16,7 @@ What you'll need is a functional installation of [ANTs](http://stnava.github.io/
 You should end up with two ANTs transformation matrices that can now be used to transform any stack and point lists from the moving to the reference coordinate system or the other way around.
 
 ## Segmentation tools
-
-TODO, but check out [CaImAn](https://github.com/flatironinstitute/CaImAn) for segmentation of cells based on functional properties and [cellpose](http://www.cellpose.org/static/docs/index.html) for segmentation of cells based on structure.
+<em>TODO.....</em>. For now, check out [CaImAn](https://github.com/flatironinstitute/CaImAn) for segmentation of cells based on functional properties and [cellpose](http://www.cellpose.org/static/docs/index.html) for segmentation of cells based on structure.
 
 
 
